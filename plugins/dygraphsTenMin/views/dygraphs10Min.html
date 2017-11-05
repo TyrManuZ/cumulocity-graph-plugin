@@ -1,0 +1,10 @@
+<div ng-controller="dygraphsController10Min">
+  <div>
+    20 series measured each second over 4 hours. Each 10 minutes block is a single document in mongo with an array containing the 20 series
+    as an array for each timestamp. 4 hours * 3600 seconds * 20 series = 288000 plots
+  <div>
+  <button type="submit" class="btn btn-primary" ng-click="refresh()">
+    Refresh
+  </button>
+  <div style="width:1500px;height:800px" id="dygraphdiv"></div>
+</div>

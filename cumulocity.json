@@ -1,0 +1,13 @@
+{
+  "availability": "MARKET",
+  "contextPath": "charts",
+  "key": "charts-app-key",
+  "name": "Charts",
+  "resourcesUrl": "/",
+  "type": "HOSTED",
+  "imports": [
+    "core/c8yBranding",
+    "charts/dygraphsHour",
+    "charts/dygraphsTenMin"
+  ]
+}

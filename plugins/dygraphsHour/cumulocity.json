@@ -1,0 +1,17 @@
+{
+  "name": "Dygraphs Hour",
+  "description": "Some dygraphs examples",
+  "icon": "cloud",
+  "category": "Charts",
+  "ngModules": [
+    "charts.dygraphsHour"
+  ],
+  "js": [
+    "dygraph/dygraph.min.js",
+    "dygraphsHour.config.js",
+    "dygraphsHour.controller.js"
+  ],
+  "css": [
+    "dygraph/dygraph.min.css"
+  ]
+}

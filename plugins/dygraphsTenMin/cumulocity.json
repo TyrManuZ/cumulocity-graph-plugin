@@ -1,0 +1,17 @@
+{
+  "name": "Dygraphs 10 Min",
+  "description": "Some dygraphs examples",
+  "icon": "cloud",
+  "category": "Charts",
+  "ngModules": [
+    "charts.dygraphs10Min"
+  ],
+  "js": [
+    "dygraph/dygraph.min.js",
+    "dygraphs10Min.config.js",
+    "dygraphs10Min.controller.js"
+  ],
+  "css": [
+    "dygraph/dygraph.min.css"
+  ]
+}

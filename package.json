@@ -1,0 +1,29 @@
+{
+  "name": "cumulocity-ui-plugin-examples",
+  "version": "2.0.3",
+  "dependencies": {
+    "cumulocity-ui-build": "http://resources.cumulocity.com/webapps/ui/8.13.2.tar.gz"
+  },
+  "scripts": {
+    "lint": "eslint --cache --",
+    "test": "karma start --"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.8",
+    "babel-eslint": "6.x",
+    "eslint": "3.12.2",
+    "eslint-config-airbnb-es5": "1.1.0",
+    "eslint-plugin-react": "6.8.0",
+    "fs-extra": "1.0.0",
+    "glob": "7.1.1",
+    "jasmine-core": "2.5.2",
+    "karma": "1.3.0",
+    "karma-jasmine": "1.1.0",
+    "karma-ng-html2js-preprocessor": "1.0.0",
+    "karma-phantomjs-launcher": "1.0.2",
+    "karma-spec-reporter": "0.0.26",
+    "lodash": "4.17.3",
+    "sinon": "1.17.6",
+    "tentacle.js": "0.1.0"
+  }
+}
